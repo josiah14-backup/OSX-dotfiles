@@ -1,0 +1,2 @@
+# Expand the disk size so that larger containers can be installed
+DiskSize = 80000

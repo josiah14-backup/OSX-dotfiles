@@ -1,0 +1,20 @@
+// blacklist all files
+*
+
+// Whitelisted files
+!.bashrc
+!.gitignore
+!.boot2docker/
+!profile
+!.m2/
+!settings.xml
+!.nix-channels
+!.profile
+!.shrc
+!.mkshrc
+!.zshrc
+!.bashrc
+!.tmux.conf
+!.spacemacs
+!.viminfo
+!.vimrc
