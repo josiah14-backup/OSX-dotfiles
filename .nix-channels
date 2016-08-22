@@ -1,2 +1,3 @@
-https://nixos.org/channels/nixos-15.09 nixos-15.09
-https://nixos.org/channels/nixos-15.09 nixpkgs
+https://nixos.org/channels/nixos-16.03 nixos-16.03
+https://nixos.org/channels/nixpkgs-unstable nixpkgs
+https://nixos.org/channels/nixos-16.03 nixos

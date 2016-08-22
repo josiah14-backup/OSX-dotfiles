@@ -14,6 +14,8 @@
                                         navigator
                                         ruby
                                         go
+                                        nixos
+                                        elm
                                         elixir
                                         html
                                         python
@@ -26,6 +28,7 @@
                                         dockerfile
                                         syntax-checking
                                         markdown
+                                        yaml
                                         )
     dotspacemacs-default-font '("Source Code Pro for Powerline"
                                 :size 13

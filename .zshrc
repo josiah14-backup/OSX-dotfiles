@@ -97,3 +97,17 @@ export ELASTIC_URI=127.0.0.1:9300
 alias awspk="ssh -i ~/Documents/AWS/osx-key-pair.pem hadoop@ec2-52-34-65-38.us-west-2.compute.amazonaws.com"
 NIX_PATH="nixpkgs=/Users/dt205208/.nix-defexpr/channels/nixpkgs"
 #. /Users/dt205208/.nix-profile/etc/profile.d/nix.sh
+
+# environment vars for testing Analytics on Greenplum from Python
+# export RA_PGDATABASE=dst_beta
+# export RA_PGHOST=uxpbdpmdw01.dstcorp.net
+# export RA_PGUSER=dt205208
+# export RA_PGPASSWORD=ch4mp!0o
+# export RA_PGSEARCH_PATH=aag_prototype
+
+alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
+. /Users/dt205208/.nix-profile/etc/profile.d/nix.sh
+
+alias gpsql="PGHOST=uxpbdpmdw01.dstcorp.net PGPORT=5432 PGDATABASE=dst_beta psql -U dt205208"
+alias gpsql-prod='PGHOST=uxpbdpmdw01.dstcorp.net PGPORT=5432 PGDATABASE=dst psql -U dt205208'
+alias gpsql-test='PGHOST=localhost PGPORT=5432 PGPASSWORD=pivotal psql -U gpadmin'
