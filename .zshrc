@@ -86,16 +86,13 @@ set -o vi
 
 # Boot2Docker settings
 export DOCKER_HOST=tcp://192.168.59.103:2376
-export DOCKER_CERT_PATH=/Users/dt205208/.boot2docker/certs/boot2docker-vm
+#export DOCKER_CERT_PATH=/Users/dt205208/.boot2docker/certs/boot2docker-vm
 export DOCKER_TLS_VERIFY=1
-export NO_PROXY="192.168.59.103, stash-scm.dstcorp.net"
-export NODE_ENV=josiah
 alias glt="gulp test"
 alias gll="gulp lint"
 alias esrch="elasticsearch --config=/usr/local/opt/elasticsearch/config/elasticsearch.yml"
 export ELASTIC_URI=127.0.0.1:9300
-alias awspk="ssh -i ~/Documents/AWS/osx-key-pair.pem hadoop@ec2-52-34-65-38.us-west-2.compute.amazonaws.com"
-NIX_PATH="nixpkgs=/Users/dt205208/.nix-defexpr/channels/nixpkgs"
+#NIX_PATH="nixpkgs=/Users/dt205208/.nix-defexpr/channels/nixpkgs"
 #. /Users/dt205208/.nix-profile/etc/profile.d/nix.sh
 
 # environment vars for testing Analytics on Greenplum from Python
@@ -107,7 +104,3 @@ NIX_PATH="nixpkgs=/Users/dt205208/.nix-defexpr/channels/nixpkgs"
 
 alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
 . /Users/dt205208/.nix-profile/etc/profile.d/nix.sh
-
-alias gpsql="PGHOST=uxpbdpmdw01.dstcorp.net PGPORT=5432 PGDATABASE=dst_beta psql -U dt205208"
-alias gpsql-prod='PGHOST=uxpbdpmdw01.dstcorp.net PGPORT=5432 PGDATABASE=dst psql -U dt205208'
-alias gpsql-test='PGHOST=localhost PGPORT=5432 PGPASSWORD=pivotal psql -U gpadmin'
