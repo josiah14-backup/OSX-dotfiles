@@ -14,8 +14,9 @@
 $
 
 # Command Line History (newest to oldest):
-:wq
 :q
+:x
+:wq
 :w
 :q!
 :set wrap!
@@ -109,23 +110,31 @@ $
 "j	CHAR	0
 	
 ""-	CHAR	0
-	/
+	/Users/dt205208
 
 # global variables:
 
 # File marks:
-'0  2  92  ~/Documents/RSM/translated-ta2000/translate-originals.sh
-'1  1  0  ~/Documents/RSM/translated-ta2000/translate-
-'2  1  113  ~/Documents/RSM/translated-ta2000/translate-originals.sh
-'3  1  0  ~/Documents/RSM/translated-ta2000/translate
-'4  3  0  ~/Documents/RSM/translated-ta2000/convert-docx-to-txt.sh
-'5  180  0  ~/Documents/RSM/TA2000/6.93 – Account with Redemption and Stop Transfer Removed  - CFT.txt
-'6  1  0  ~/Documents/RSM/translated-ta2000/requirements.txt
-'7  1  0  /usr/local/bin/toggle-proxy.zsh
-'8  6  48  /usr/local/bin/toggle-proxy.zsh
-'9  24  46  ~/Development/alternative-investments/build.sbt
+'0  5  0  ~/Development/pyaud/src/config.json
+'1  1  0  ~/Development/pyaud/src/config.json
+'2  50  0  ~/Library/Caches/TemporaryItems/Outlook Temp/6.108 - eval_ac_hld_mail_intrux_reg_maint.sql
+'3  1  121  ~/Development/pyaud/start-cloudera-docker
+'4  1  0  ~/Documents/RSM/translated-ta2000/.git/MERGE_MSG
+'5  8  0  ~/Downloads/GraphMLViewer/GraphMLViewer.js
+'6  2  92  ~/Documents/RSM/translated-ta2000/translate-originals.sh
+'7  1  0  ~/Documents/RSM/translated-ta2000/translate-
+'8  1  113  ~/Documents/RSM/translated-ta2000/translate-originals.sh
+'9  1  0  ~/Documents/RSM/translated-ta2000/translate
 
 # Jumplist (newest first):
+-'  5  0  ~/Development/pyaud/src/config.json
+-'  1  0  ~/Development/pyaud/src/config.json
+-'  50  0  ~/Library/Caches/TemporaryItems/Outlook Temp/6.108 - eval_ac_hld_mail_intrux_reg_maint.sql
+-'  1  0  ~/Library/Caches/TemporaryItems/Outlook Temp/6.108 - eval_ac_hld_mail_intrux_reg_maint.sql
+-'  1  121  ~/Development/pyaud/start-cloudera-docker
+-'  1  0  ~/Documents/RSM/translated-ta2000/.git/MERGE_MSG
+-'  8  0  ~/Downloads/GraphMLViewer/GraphMLViewer.js
+-'  1  0  ~/Downloads/GraphMLViewer/GraphMLViewer.js
 -'  2  92  ~/Documents/RSM/translated-ta2000/translate-originals.sh
 -'  1  0  ~/Documents/RSM/translated-ta2000/translate-originals.sh
 -'  1  0  ~/Documents/RSM/translated-ta2000/translate-
@@ -216,13 +225,26 @@ $
 -'  43  0  ~/Development/monitoring-dashboard/public/Blog.elm
 -'  1  0  ~/Development/monitoring-dashboard/public/Blog.elm
 -'  10  0  ~/Development/monitoring-dashboard/public/Community.elm
--'  1  0  ~/Development/monitoring-dashboard/public/Community.elm
--'  1  0  ~/Development/monitoring-dashboard/public/Empty.elm
--'  18  0  ~/Development/monitoring-dashboard/public/Elm.elm
--'  5  0  ~/Development/monitoring-dashboard/public/Elm.elm
--'  3  0  ~/Development/greenplum-db/ddl/newkirk/WO449400.ddl
 
 # History of marks within files (newest to oldest):
+
+> ~/Development/pyaud/src/config.json
+	"	5	0
+
+> ~/Library/Caches/TemporaryItems/Outlook Temp/6.108 - eval_ac_hld_mail_intrux_reg_maint.sql
+	"	50	0
+
+> ~/Development/pyaud/start-cloudera-docker
+	"	1	121
+	^	1	95
+	.	1	94
+	+	1	94
+
+> ~/Documents/RSM/translated-ta2000/.git/MERGE_MSG
+	"	1	0
+
+> ~/Downloads/GraphMLViewer/GraphMLViewer.js
+	"	8	0
 
 > ~/Documents/RSM/translated-ta2000/translate-originals.sh
 	"	2	92
@@ -730,27 +752,3 @@ $
 	+	23	4
 	+	24	2
 	+	25	0
-
-> ~/test.elm
-	"	1	0
-	.	1	0
-	+	2	26
-	+	2	0
-	+	1	12
-	+	1	12
-	+	1	0
-
-> ~/test.js
-	"	10008	0
-
-> ~/index.html
-	"	1	14
-
-> ~/Development/canny_free_radical/Gemfile
-	"	44	2
-	.	44	2
-	+	3	10
-	+	44	2
-
-> ~/Development/graph-engine-reco-ds/.git/COMMIT_EDITMSG
-	"	1	0
